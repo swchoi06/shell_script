@@ -1,0 +1,13 @@
+대량의 사용자를 추가시키는 스크립트.
+
+adduser.sh, deluser.sh, setpasswd.sh로총 3개의 파일로 구성되어 있다.
+
+3 파일 모두 sample_user_list.txt와 같은 형태의 User ID List를 input으로 받는다.
+
+setpasswd.sh의 경우 유저아이디를 패스워드로 지정한다.
+example) 만약 user id가 wafflestudio라면, 패스워드도 wafflestudio로 초기화된다.
+
+사용법
+  - ./adduser.sh userlist.txt
+  - ./deluser.sh userlist.txt
+  - ./setpasswd.sh userlist.txt
